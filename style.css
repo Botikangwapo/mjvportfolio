@@ -186,7 +186,6 @@ height: auto;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #c9c8c8;
 }
 
 .character-box{
@@ -201,7 +200,6 @@ height: auto;
 .hero-content{
   width: 100%;
   height: auto;
-  background-color: #005bba;
   position: relative;
 }
 
@@ -211,12 +209,11 @@ height: auto;
   justify-content: center;
   width: auto;
   height: auto;
-  background-color: #fed500;
   position: absolute;
 }
 
 .img img{
-  height: 600px;
+  height: 500px;
 }
 
 
