@@ -208,15 +208,37 @@ width: 100%;
 height: auto;
 }
 
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+  }
+
+  .img {
+    position: relative;        /* follow normal flow */
+    top: 0;
+    left: 0;
+    transform: none;
+    display: flex;              /* center horizontally */
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;             /* center container */
+  }
+
+  .img img {
+    width: 100%;
+    max-width: 400px;           /* prevent too large on small screens */
+    height: auto;
+  }
+}
+
 
 .img{
-width: 100%;
-max-width: 500px;
   position: absolute;
-  top: 45.7%;
+  top: 46%;
   left: 50%;
   transform: translate(-50%, -50%);
-
+  max-width: 500px;
 }
 
 .img img{
