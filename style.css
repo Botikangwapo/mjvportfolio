@@ -933,43 +933,11 @@ font-size: 100px;    /* fixed size if you want tighter control */
 }
 }
 
-@media (max-width:400px){
+@media (max-width:475px){
   .img{
-    top:36%;
-  }
-  
-}
-@media (max-width:375px){
-    .img{
-    top:46%;
+    top:44%;
   }
 }
-
-@media (max-width:414px){
-    .img{
-    top:34%;
-  }
-}
-
-@media (max-width:390px){
-    .img{
-    top:36%;
-  }
-}
-
-@media (max-width:430px){
-    .img{
-    top:33%;
-  }
-}
-
-@media (max-width:360px){
-    .img{
-    top:39.5%;
-  }
-}
-
-
 
 @media (max-width:475px){
 .social-links{
@@ -1360,3 +1328,4 @@ footer{
         flex-direction: column; /* show hamburger icon */
     }
 }
+
