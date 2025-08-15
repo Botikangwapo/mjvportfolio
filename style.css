@@ -657,7 +657,7 @@ gap: 10px;
 .box-content-contact h1{
 font-size: clamp(55px, 8vw, 70px);
 font-weight: 900;
-font-family: Arial, Helvetica, sans-serif;
+font-family:"Poppins" cursive;
 position: relative;
 color: rgb(255, 174, 0);
 }
@@ -670,6 +670,7 @@ color: rgb(255, 174, 0);
   left: 0%;
   color: #c9c8c8;
   font-weight: 900;
+  font-family:"Poppins" cursive;
 }
 
 .box-content-contact p{
@@ -1317,5 +1318,6 @@ footer{
         flex-direction: column; /* show hamburger icon */
     }
 }
+
 
 
