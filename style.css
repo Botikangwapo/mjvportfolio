@@ -778,8 +778,9 @@ top: 0;
 height: 400px;
 }
 .img{
-top: 10%;
+  bottom: auto;
 }
+
 
 .card-website{
 flex-direction: column;
@@ -922,6 +923,10 @@ flex-direction: column;
 height: auto;
 }
 
+.img{
+  bottom: auto;
+}
+
 .name h1 {
 font-weight: 900;   /* keeps it strong bold on mobile */
 font-size: 100px;    /* fixed size if you want tighter control */
@@ -957,7 +962,7 @@ height: 30px;
 }
 
 .img{
-  top: 35.8%;
+  bottom: auto;
 }
 
 .img img{
