@@ -204,6 +204,7 @@ flex-direction: column;
 text-align: center;
 width: 100%;
 position: relative;
+height: auto;
 }
 
 
@@ -918,10 +919,6 @@ flex-direction: column;
 height: auto;
 }
 
-.img{
-top: 39%;
-}
-
 .name h1 {
 font-weight: 900;   /* keeps it strong bold on mobile */
 font-size: 100px;    /* fixed size if you want tighter control */
@@ -956,9 +953,6 @@ width: 130px;
 height: 30px;
 }
 
-.img{
-top: 44%;
-}
 
 .img img{
   height: 430px;
