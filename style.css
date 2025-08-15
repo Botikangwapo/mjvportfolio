@@ -196,6 +196,7 @@ line-height: 1.6rem;
   display: flex;
 align-items: center;
 justify-content: center;
+position: relative;
 }
 .character-box img{
 display: flex;
@@ -204,7 +205,6 @@ justify-content: center;
 flex-direction: column;
 text-align: center;
 width: 100%;
-position: relative;
 height: auto;
 }
 
@@ -966,11 +966,11 @@ height: 30px;
 }
 
 .img{
-  bottom: auto;
+  top: 35.7%;
 }
 
 .img img{
-  height: 430px;
+  height: 400px;
 }
 
 .skills-educ{
