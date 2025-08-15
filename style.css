@@ -933,7 +933,11 @@ font-size: 100px;    /* fixed size if you want tighter control */
 }
 }
 
-
+@media (max-width:475px){
+  .img{
+    top:44%;
+  }
+}
 
 @media (max-width:475px){
 .social-links{
