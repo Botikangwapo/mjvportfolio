@@ -85,7 +85,7 @@ menuToggle.addEventListener('click', () => {
  
     setTimeout(() => {
         sidebar.classList.add('active');
-    }, 300); 
+    }, 600); 
 });
 
 closeBtn.addEventListener('click', () => {
@@ -95,7 +95,7 @@ closeBtn.addEventListener('click', () => {
     
     setTimeout(() => {
         secondsidebar.classList.remove('active');
-    }, 300);
+    }, 400);
 });
 
 menuLinks.forEach(link => {
