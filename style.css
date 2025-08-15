@@ -670,6 +670,7 @@ color: rgb(255, 174, 0);
   left: 0%;
   color: #c9c8c8;
   font-weight: 900;
+  font-style: normal;
   font-family:"Poppins" cursive;
 }
 
@@ -1318,6 +1319,7 @@ footer{
         flex-direction: column; /* show hamburger icon */
     }
 }
+
 
 
 
