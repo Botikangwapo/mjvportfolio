@@ -227,6 +227,10 @@ justify-content:center;
 text-align: center;
 }
 
+.p p{
+  font-size: 15px;
+}
+
 p{
 line-height: 1.6rem;
 }
@@ -719,6 +723,7 @@ color: rgb(255, 174, 0);
 
 .box-content-contact p{
   width: 90%;
+  font-size: 15px;
 }
 
 .location-content{
@@ -1208,6 +1213,10 @@ footer{
 .card:hover{
     transform: scaleY(1.1);
     background-color: #151154;
+}
+
+.card p{
+  font-size: 15px;
 }
 
 .card h3{
