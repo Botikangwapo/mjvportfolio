@@ -526,7 +526,7 @@ justify-content: flex-start;
 .name h1::before{
 content: "Hi I'm Jervin";
 position: absolute;
-color: rgb(179, 179, 179);
+ color: #e1d1d3;
 font-size: clamp(28px, 8vw, 50px);
 bottom: 3%;
 font-family:"Poppins" cursive;
@@ -599,6 +599,7 @@ position: relative;
   animation: 3s slide infinite linear;
   white-space: nowrap;
   transition: all 0.6 ease;
+   color: #e1d1d3;
 }
 
 .skills i:hover{
@@ -627,11 +628,13 @@ position: relative;
 .box1 h2{
 font-weight: 900;
 font-size:  20px;
+ color: #e1d1d3;
 }
 
 .div-who h2{
 font-size: 20px;
 font-weight: 800;
+ color: #e1d1d3;
 }
 
 .div-who p{
@@ -645,6 +648,7 @@ font-size: 15px;
 .div-goal h2{
 font-size: 20px;
 font-weight: 800;
+ color: #e1d1d3;
 }
 
 .custom-shape-divider-top-1753342852 {
