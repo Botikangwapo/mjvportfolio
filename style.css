@@ -129,21 +129,8 @@ justify-content:space-between;
 
 .logo{
 font-weight: 900;
-font-size: 15px;
+font-size: 20px;
 color:rgb(255, 174, 0);
-position: relative;
-width: 30PX;
-height: 30PX;
-
-}
-
-.logo::before{
-  content: "V";
-  position: absolute;
-  color: #bbb0b0;
-  left: 20%;
-  top: 20%;
-  z-index: -1;
 }
 
 h4{
@@ -1398,4 +1385,5 @@ footer{
         flex-direction: column; /* show hamburger icon */
     }
 }
+
 
