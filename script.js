@@ -15,7 +15,7 @@ document.querySelectorAll('.color-picker').forEach(span => {
     const img = this.getAttribute('data-img');
 
     
-    document.querySelectorAll(' .gallery i, .locals svg, .nav-samplefor h3 span, .Connect h3, .logo, .btn:hover, .nav-sample h3 span, .nav-sampletwo h3 span, .nav-bottom .links a:first-child svg, .box-content-contact h1')
+    document.querySelectorAll(' .gallery i, .locals svg, .nav-samplefor h3 span, .Connect h3, .logo, .btn:hover, .nav-sample h3 span, .nav-sampletwo h3 span, .nav-bottom .links a:first-child svg')
       .forEach(el => {
         el.style.color = color;
       });
@@ -114,3 +114,4 @@ menuLinks.forEach(link => {
         }, 400);
     });
 });
+
